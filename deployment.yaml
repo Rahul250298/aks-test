@@ -32,6 +32,7 @@ spec:
       containers:
       - name: myflask-app
         image: testpython.azurecr.io/java
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000  # The Flask app listens on port 80
         resources:
