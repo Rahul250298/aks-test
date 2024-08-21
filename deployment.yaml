@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: myflask-app
-        image: testpython.azurecr.io/java:#{Build.BuildId}#
+        image: testpython.azurecr.io/java:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000  # The Flask app listens on port 80
