@@ -46,7 +46,7 @@ def get_names():
 # Endpoint for the main page
 @app.route('/', methods=['GET'])
 def home():
-    return 'Hello, team!'
+    return 'Hello, 123!'
 
 if __name__ == '__main__':
     app.run(debug=True)
